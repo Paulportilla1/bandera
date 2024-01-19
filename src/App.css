@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+  
+}.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; 
 }
+
+.color {
+  width: 250px; 
+  height: 250px; 
+  margin: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 250px;
+  height: 150px;
+  margin: 5px
+}
+
+.blue {
+  background-color: blue;
+  width: 180px;
+  height: 100px;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+  width: 130px;
+  height: 65px;
+  margin: 5px;
+  font-size: 10px;
+}
+
